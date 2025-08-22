@@ -67,87 +67,6 @@ The dataset comprises 12,446 unique data points, including 3,709 cyst, 5,077 nor
 9. Update the dvc.yaml
 10. app.py
 
-# How to run Backend?
-### STEPS:
-
-Clone the repository
-
-```bash
-git clone https://github.com/Prriyanshu9898/Kidney-Disease-Classification-Using-Deep-Learning.git
-```
-### STEP 01- Create a Python environment after opening the repository
-
-```bash
-cd Kidney-Disease-Classification-Using-Deep-Learning
-python -m venv env
-```
-
-```bash
-env\Scripts\activate
-```
-
-
-### STEP 02- install the requirements
-```bash
-pip install -r requirements.txt
-```
-### STEP 03- Run the Flask Backend
-```bash
-python app.py
-```
-### STEP 04- Run the Training Pipeline
-```bash
-python main.py
-```
-
-# How to run Frontend?
-### STEP 01- Go to client
-```bash
-cd frontend
-```
-### STEP 02- install the requirements
-```bash
-npm install
-```
-
-### STEP 03- Run the NextJS frontend
-```bash
-npm run dev
-```
-
-### STEP 04- Build the frontend
-```bash
-npm run build
-```
-
-## MLflow
-
-- [Documentation](https://mlflow.org/docs/latest/index.html)
-
-
-##### cmd
-- mlflow ui
-
-### dagshub
-[dagshub](https://dagshub.com/)
-
-
-MLFLOW_TRACKING_URI=https://dagshub.com/Priyanshu9898/Kidney-Disease-Classification-Deep-Learning-Project.mlflow \
-MLFLOW_TRACKING_USERNAME=Priyanshu9898 \
-MLFLOW_TRACKING_PASSWORD=1dc505ed931b2af16eacead37f82f256c16d99fe \
-python script.py
-
-Run this to export as env variables:
-
-```bash
-
-export MLFLOW_TRACKING_URI=https://dagshub.com/Priyanshu9898/Kidney-Disease-Classification-Deep-Learning-Project.mlflow
-
-export MLFLOW_TRACKING_USERNAME=Priyanshu9898 
-
-export MLFLOW_TRACKING_PASSWORD=1dc505ed931b2af16eacead37f82f256c16d99fe
-
-```
 
 ## Training Results
 
@@ -182,11 +101,7 @@ export MLFLOW_TRACKING_PASSWORD=1dc505ed931b2af16eacead37f82f256c16d99fe
 | Naive Bayes | 52.69% | 60.53% | 45.11% | 37.68% |
 
 
-## 🔗 Links
-[![portfolio](https://img.shields.io/badge/my_portfolio-000?style=for-the-badge&logo=ko-fi&logoColor=white)](https://priyanshumalaviya.vercel.app/)
-[![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/priyanshumalaviya/)
-[![twitter](https://img.shields.io/badge/twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white)](https://twitter.com/Priyanshu2281)
-[![Medium](https://img.shields.io/badge/medum-1DA1F2?style=for-the-badge&logo=medium&logoColor=black)](https://medium.com/@priyanshumalaviya9210)
+
 ## Demo
 
 Insert gif or link to demo
@@ -202,3 +117,4 @@ Add badges from somewhere like: [shields.io](https://shields.io/)
 
 
 ## License
+
