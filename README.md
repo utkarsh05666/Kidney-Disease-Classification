@@ -1,11 +1,6 @@
 ## Kidney Disease Classification
 This project focuses on the classification of kidney diseases using deep learning and computer vision techniques. We have developed a complete pipeline encompassing data ingestion, transformation, model training, and evaluation. The project leverages technologies such as Next.js, TypeScript, TailwindCSS for the frontend, and Python, Flask, mlflow, DVC for the backend.
 
-### Frontend URL: https://kidney-disease-classification.vercel.app/
-### Backend URL: 
-- (Model Notebooks can be found in Research Folder)
-- (Model Results can be found in Results Folder)
-
 ## Features
 - Comprehensive data processing and transformation pipeline.
 - Multiple deep learning, Transformers and machine learning models for comparative analysis.
@@ -117,4 +112,5 @@ Add badges from somewhere like: [shields.io](https://shields.io/)
 
 
 ## License
+
 
